@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".create">
+
+    <ImageView
+        android:id="@+id/myRectangle1"
+        android:layout_width="1000dp"
+        android:layout_height="80dp"
+        android:src="@drawable/atas" />
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Data Barang Baru"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/sedansc"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp" >
+        <TextView
+            android:layout_marginTop="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GAMBAR" />
+
+        <EditText
+            android:id="@+id/GAMBAR"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="#957D6C"
+            android:minHeight="48dp"
+            android:paddingLeft="10dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NAMA BARANG" />
+
+        <EditText
+            android:id="@+id/namabarang"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="#957D6C"
+            android:minHeight="48dp"
+            android:paddingLeft="10dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="QTY" />
+
+        <EditText
+            android:id="@+id/Qty"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="#957D6C"
+            android:minHeight="48dp"
+            android:paddingLeft="10dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HARGA" />
+
+        <EditText
+            android:id="@+id/harga"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="#957D6C"
+            android:minHeight="48dp"
+            android:paddingLeft="10dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="131dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Simpan"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

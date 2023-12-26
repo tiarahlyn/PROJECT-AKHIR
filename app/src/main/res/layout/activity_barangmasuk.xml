@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".barangmasuk">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/myRectangle2"
+            android:layout_width="1000dp"
+            android:layout_height="80dp"
+            android:src="@drawable/atas" />
+
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barang Masuk"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/sedansc"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="249dp"
+        android:layout_height="103dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="90dp"
+        android:background="#7A695C"
+        android:padding="30dp"
+        android:textColor="#FFFFFF"
+        tools:ignore="DuplicateIds" />
+    <ImageView
+        android:id="@+id/btntitik"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/titik"/>
+    <TextView
+        android:id="@+id/sunlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunlight"
+        android:layout_marginTop="102dp"
+        android:layout_marginLeft="140dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        tools:ignore="DuplicateIds" />
+    <ImageView
+        android:layout_width="107dp"
+        android:layout_height="89dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="95dp"
+        android:src="@drawable/sunlight"/>
+    <TextView
+        android:id="@+id/Qty2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qty : 100"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="140dp"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/harga2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga : 3000"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="130dp"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/myTextView1"
+        android:layout_width="249dp"
+        android:layout_height="103dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:background="#7A695C"
+        android:padding="30dp"
+        android:textColor="#FFFFFF"/>
+    <ImageView
+        android:id="@+id/btntitik1"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="210dp"
+        android:src="@drawable/titik"/>
+    <TextView
+        android:id="@+id/minyakgoreng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minyak Goreng"
+        android:layout_marginTop="205dp"
+        android:layout_marginLeft="120dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        tools:ignore="DuplicateIds" />
+    <ImageView
+        android:layout_width="107dp"
+        android:layout_height="89dp"
+        android:src="@drawable/minyak"
+        android:layout_marginTop="205dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/Qty3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qty : 100"
+        android:layout_marginTop="233dp"
+        android:layout_marginLeft="140dp"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/harga3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga : 18000"
+        android:layout_marginTop="255dp"
+        android:layout_marginLeft="120dp"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/myTextView2"
+        android:layout_width="249dp"
+        android:layout_height="103dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="310dp"
+        android:background="#7A695C"
+        android:padding="30dp"
+        android:textColor="#FFFFFF"/>
+    <ImageView
+        android:id="@+id/btntitik2"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="320dp"
+        android:src="@drawable/titik"/>
+    <TextView
+        android:id="@+id/mieindomie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mie Indomie"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="125dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/Qty4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qty : 100"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="140dp"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+    <ImageView
+        android:layout_width="107dp"
+        android:layout_height="89dp"
+        android:src="@drawable/mie"
+        android:layout_marginTop="315dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/harga4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga : 3000"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="125dp"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/myTextView3"
+        android:layout_width="249dp"
+        android:layout_height="103dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="420dp"
+        android:background="#7A695C"
+        android:padding="30dp"
+        android:textColor="#FFFFFF"/>
+    <ImageView
+        android:id="@+id/btntitik3"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="430dp"
+        android:src="@drawable/titik"/>
+    <TextView
+        android:id="@+id/saosABC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saos ABC"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="135dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/Qty5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qty : 100"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="140dp"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+    <ImageView
+        android:layout_width="107dp"
+        android:layout_height="89dp"
+        android:src="@drawable/saos"
+        android:layout_marginTop="428dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/harga5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga : 15000"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="125dp"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/myTextView4"
+        android:layout_width="249dp"
+        android:layout_height="103dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="530dp"
+        android:background="#7A695C"
+        android:padding="30dp"
+        android:textColor="#FFFFFF"/>
+    <ImageView
+        android:id="@+id/btntitik4"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="540dp"
+        android:src="@drawable/titik"/>
+    <TextView
+        android:id="@+id/sabunsoklin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sabun Soklin"
+        android:layout_marginTop="545dp"
+        android:layout_marginLeft="125dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+    <ImageView
+        android:layout_width="107dp"
+        android:layout_height="89dp"
+        android:src="@drawable/soklin"
+        android:layout_marginTop="535dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/Qty5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qty : 100"
+        android:layout_marginTop="575dp"
+        android:layout_marginLeft="140dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        tools:ignore="DuplicateIds" />
+    <TextView
+        android:id="@+id/harga5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga : 2000"
+        android:layout_marginTop="595dp"
+        android:layout_marginLeft="125dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        tools:ignore="DuplicateIds" />
+
+</RelativeLayout>
+
+</ScrollView>
